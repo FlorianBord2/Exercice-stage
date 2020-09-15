@@ -2,5 +2,5 @@
 
 # Installation 
 
-Put all the Php file at you ~/var/www/html forlder. Same location for the 'file' folder.
-This folder contain all the csv file you want to dipslay.
+Put all the Php files at you '''~/var/www/html''' folder. Same location for the '''file''' folder.
+This folder contains all the csv files you want to dipslay.
