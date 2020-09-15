@@ -1,4 +1,6 @@
 <?php
+
+	//This function return a full html chart
 	function html_chart($title, $subtitle ,$dataPoints){
 		return '<!DOCTYPE HTML>
 		<html>
@@ -31,6 +33,7 @@
 		</html>';
 	};
 
+	//This function show all labels in the file
 	function disp_label($labels,$array){
 		$res = '<form method=get>';
 		foreach($labels as $label => $key){
@@ -41,6 +44,7 @@
 		return $res;
 	}
 
+	//This function return a full html table, with a html sorting option
 	function disp_tab($labels, $array){
 		$script = '<meta charset="utf-8"><script src="https://www.w3schools.com/lib/w3.js"></script>';
 		$home = '<form action="main.php"><input type=submit value="Home">';

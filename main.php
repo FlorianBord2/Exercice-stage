@@ -19,7 +19,7 @@ foreach ($scanned_directory as $file){
 		<input type="submit" value="Répartition"></form>';
 		echo '<form methode="get" action="table.php">
 		<input type="hidden" value="'.$file.'"id="fname" name="filename">
-		<input type="submit" value="Tableau">
+		<input type="submit" value="Tableau"></form>
 		<br>';
 		break;
 

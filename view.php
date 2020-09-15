@@ -1,7 +1,7 @@
 <?php
 include 'utils.php';
 
-
+//This script show the differant label you can graph
 if (isset($_GET['filename'])){
 	$name = $_GET['filename'];
 	if (empty($name)) {
@@ -20,7 +20,7 @@ if (isset($_GET['filename'])){
 
 	//convert csv
 	$array = array_map("str_getcsv", explode("\n", $csv));
-	
+
 	//print_r( $array);
 	//Get the column name
 	$labels = array_shift($array);
